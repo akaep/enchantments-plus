@@ -31,7 +31,7 @@ public class LevitationEnchantment extends Enchantment {
 
     @Override
     protected boolean canAccept(Enchantment other) {
-        return other != Enchantments.FIRE_ASPECT && other != EnchantmentsPlus.TOXICSTRIKE && other != EnchantmentsPlus.FROSTBITE;
+        return other != Enchantments.FIRE_ASPECT && other != EnchantmentsPlus.TOXICSTRIKE && other != EnchantmentsPlus.FROSTBITE && other != EnchantmentsPlus.BLACKOUT;
     }
 
     @Override
