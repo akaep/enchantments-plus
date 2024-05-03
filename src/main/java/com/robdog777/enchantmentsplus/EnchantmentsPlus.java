@@ -29,7 +29,7 @@ public class EnchantmentsPlus implements ModInitializer {
 
     public static StatusEffect MOONREST = new MoonRestEffect();
 
-    public static Enchantment BLAZEWALKER = null, CUBICAL = null, DUALLEAP = null, ENDSLAYER = null, EXCAVATOR = null,
+    public static Enchantment BLACKOUT = null, BLAZEWALKER = null, CUBICAL = null, DUALLEAP = null, ENDSLAYER = null, EXCAVATOR = null,
             FLASHFORGE = null, FROSTBITE = null, HIKER = null, LEVITATION = null, LIFESTEAL = null, LUNARSIGHT = null,
             MOONWALKER = null, PAYBACK = null, RAIDER = null, THUNDERLORD = null, TOXICSTRIKE = null, SNIPER = null,
             MYSTICMIND = null, STORMSTRIKE = null;
@@ -49,6 +49,12 @@ public class EnchantmentsPlus implements ModInitializer {
 
         AutoConfig.getConfigHolder(EnchantmentsPlusConfig.class).getConfig();
         CONFIG_HOLDER.load();
+
+        BLACKOUT = Registry.register(
+                Registries.ENCHANTMENT,
+                new Identifier("enchantmentsplus", "blackout"),
+                new BlackoutEnchantment()
+        );
 
         BLAZEWALKER = Registry.register(
                 Registries.ENCHANTMENT,
