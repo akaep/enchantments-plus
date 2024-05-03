@@ -36,7 +36,7 @@ public class FrostbiteEnchantment extends Enchantment {
 
     @Override
     protected boolean canAccept(Enchantment other) {
-        return other != Enchantments.FIRE_ASPECT && other != EnchantmentsPlus.TOXICSTRIKE && other != EnchantmentsPlus.LEVITATION;
+        return other != Enchantments.FIRE_ASPECT && other != EnchantmentsPlus.TOXICSTRIKE && other != EnchantmentsPlus.LEVITATION && other != EnchantmentsPlus.BLACKOUT;
     }
 
     @Override
