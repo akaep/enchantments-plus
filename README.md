@@ -1,10 +1,10 @@
 # Enchantments-Plus
 
-## Updated to 1.20.2 for Fabric
+## Updated to 1.20.4 for Fabric
 
 <img src="https://i.imgur.com/HFDSgKD.png" alt="Icon" width="250"/>
 
-Minecraft Mod that adds over 10 new fun enchantments to the game
+Minecraft Mod that adds over 10 new fun enchantments to the game!
 
 Supports [Enchantment Descriptions](https://github.com/Darkhax-Minecraft/Enchantment-Descriptions "Enchantment Descriptions Github")
 and [Mod Menu](https://modrinth.com/mod/modmenu "Mod Menu Modrinth")
@@ -13,9 +13,9 @@ and [Mod Menu](https://modrinth.com/mod/modmenu "Mod Menu Modrinth")
 
 ---
 
-**Requires: [Fabric Loader (0.14.22+)](https://fabricmc.net/use/ "Fabric Download")
-AND [Fabric API (0.89.0+)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
-AND [Cloth Config API Fabric (12.0.109+)](https://www.curseforge.com/minecraft/mc-mods/cloth-config)**
+**Requires: [Fabric Loader](https://fabricmc.net/use/ "Fabric Download")
+AND [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
+AND [Cloth Config API Fabric](https://www.curseforge.com/minecraft/mc-mods/cloth-config)**
 
 Installation: Drop .jar file into mods folder (same with Fabric API and Cloth Config API)
 
