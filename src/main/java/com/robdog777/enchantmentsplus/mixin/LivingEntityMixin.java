@@ -61,6 +61,10 @@ public abstract class LivingEntityMixin extends Entity {
         int excavatorLevel = EnchantmentHelper.getEquipmentLevel(EnchantmentsPlus.EXCAVATOR, currentEntity);
         setRange(excavatorLevel > 0, excavatorLevel, currentEntity);
 
+        // BlastMining
+        int blastminingLevel = EnchantmentHelper.getEquipmentLevel(EnchantmentsPlus.BLASTMINING, currentEntity);
+        setRange(blastminingLevel > 0, blastminingLevel, currentEntity);
+
         // Moon Walker
         int moonWalkerLevel = EnchantmentHelper.getEquipmentLevel(EnchantmentsPlus.MOONWALKER, currentEntity);
         if (moonWalkerLevel > 0 && EnchantmentsPlus.CONFIG_HOLDER.getConfig().enableMoonWalker) {
