@@ -31,10 +31,10 @@ public class EnchantmentsPlus implements ModInitializer {
 
     public static StatusEffect MOONREST = new MoonRestEffect();
 
-    public static Enchantment BLACKOUT = null, BLAZEWALKER = null, CUBICAL = null, DUALLEAP = null, ENDSLAYER = null, EXCAVATOR = null,
-            FLASHFORGE = null, FROSTBITE = null, HIKER = null, LEVITATION = null, LIFESTEAL = null, LUNARSIGHT = null,
-            MOONWALKER = null, PAYBACK = null, RAIDER = null, THUNDERLORD = null, TOXICSTRIKE = null, SNIPER = null,
-            MYSTICMIND = null, STORMSTRIKE = null;
+    public static Enchantment BLACKOUT = null, BLASTMINING = null, BLAZEWALKER = null, CUBICAL = null, DUALLEAP = null, 
+            ENDSLAYER = null, EXCAVATOR = null, FLASHFORGE = null, FROSTBITE = null, HIKER = null, LEVITATION = null, 
+            LIFESTEAL = null, LUNARSIGHT = null, MOONWALKER = null, PAYBACK = null, RAIDER = null, THUNDERLORD = null, 
+            TOXICSTRIKE = null, SNIPER = null, MYSTICMIND = null, STORMSTRIKE = null;
 
     public static SoundEvent SwoopEvent = SoundEvent.of(SWOOP);
     public static SoundEvent BlurpEvent = SoundEvent.of(BLURP);
@@ -60,6 +60,12 @@ public class EnchantmentsPlus implements ModInitializer {
                 Registries.ENCHANTMENT,
                 new Identifier("enchantmentsplus", "blackout"),
                 new BlackoutEnchantment()
+        );
+        
+        BLASTMINING = Registry.register(
+                Registries.ENCHANTMENT,
+                new Identifier("enchantmentsplus", "blastmining"),
+                new BlastMiningEnchantment()
         );
 
         BLAZEWALKER = Registry.register(
