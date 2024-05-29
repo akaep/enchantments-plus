@@ -6,6 +6,7 @@ import me.shedaniel.autoconfig.annotation.Config;
 @Config(name = "enchantmentsplus")
 public class EnchantmentsPlusConfig implements ConfigData {
     public boolean enableBlackout = true;
+    public boolean enableBlastMining = true;
     public boolean enableBlazeWalker = true;
     public boolean enableCubical = true;
     public boolean enableDualLeap = true;
